@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content: Book Listings -->
+  <main>
+    <section class="book-listing">
+      <h1>Available Books</h1>
+
+      <!-- Books will be dynamically injected here using TypeScript -->
+      <div id="bookContainer" class="book-container">
+        <!-- Example Book Item -->
+        <div class="book-item">
+          <img src="book1.jpg" alt="Book Title 1">
+          <h3>Book Title 1</h3>
+          <p>Author: Author Name</p>
+          <p>Price: $19.99</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- More books will be displayed similarly -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Online Bookstore. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
