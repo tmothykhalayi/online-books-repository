@@ -209,3 +209,11 @@ footer p {
     font-size: 1rem; /* Keep button readable */
   }
 }
+/*styling at the centre*/
+.center{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
