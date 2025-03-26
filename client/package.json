@@ -7,14 +7,21 @@
     "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["bookstore", "online-platform", "e-commerce"],
+  "keywords": [
+    "bookstore",
+    "online-platform",
+    "e-commerce"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.10.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/jsonwebtoken": "^9.0.9"
+  },
   "engines": {
     "node": ">= 14.0.0"
   }
