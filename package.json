@@ -1,0 +1,27 @@
+{
+  "name": "online-platform",
+  "version": "1.0.0",
+  "description": "This project is an **Online Bookstore** application where users can browse available books, manage their cart, and perform user authentication. The project is split into two main parts: the client-side (frontend) and the server-side (backend).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bookstore",
+    "online-platform",
+    "e-commerce"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}
