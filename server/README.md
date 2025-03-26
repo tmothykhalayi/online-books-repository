@@ -177,6 +177,4 @@ You can use **Postman** or **Insomnia** to test the API endpoints.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-EOL
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

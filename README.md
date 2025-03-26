@@ -177,8 +177,3 @@ If you're using migrations (e.g., \`Knex.js\`, \`Sequelize\`), run the migration
 - **PUT \`/api/books/:id\`**: Updates an existing book (admin only).
 - **DELETE \`/api/books/:id\`**: Deletes a book (admin only).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-EOL
