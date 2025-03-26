@@ -84,7 +84,7 @@ online-bookstore/
 
 Before you start, ensure you have the following installed:
 
-- **Node.js** (version 14 or higher)
+
 - **npm** (Node package manager)
 - **PostgreSQL** installed and running
 
@@ -152,7 +152,7 @@ cd client
 npm start
 \`\`\`
 
-This will start the frontend on **http://localhost:3000** by default.
+This will start the frontend on **http://localhost:3000** by default
 
 ### 5. Test the Application
 
