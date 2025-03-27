@@ -33,7 +33,7 @@ export const addBook = async (req: Request, res: Response) => {
 export const updateBook = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { title, author, price, description } = req.body;
+    const { title, author,  price, description } = req.body;
 
     const book = await Book.findByPk(id);
     if (!book) {
