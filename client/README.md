@@ -150,6 +150,5 @@ This frontend communicates with the backend through API calls. Here’s how the 
 - JWT authentication is handled using cookies or localStorage to store the authentication token.
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
