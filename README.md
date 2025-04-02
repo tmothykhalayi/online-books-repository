@@ -3,7 +3,6 @@
 This project is an **Online Bookstore** application where users can browse available books, manage their cart, and perform user authentication. The project is split into two main parts:
 - **Frontend**: Built with **HTML**, **CSS**, **TypeScript**, and **JavaScript**.
 - **Backend**: Built with **Express.js**, **PostgreSQL**and **TypeScript**.
-
 ## Features
 
 ### **Frontend**
