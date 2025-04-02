@@ -10,7 +10,6 @@ This project is an **Online Bookstore** application where users can browse avail
 - **Cart Management**: Users can add books to their cart, view their cart, and proceed to checkout.
 
 ### **Backend**
-
 - **User Authentication**: Users can sign up, log in, and manage their profile.
 - **Book Management**: Admins can add, update, delete, and manage books in the store.
 - **Cart Management**: Users can manage their cart items.
