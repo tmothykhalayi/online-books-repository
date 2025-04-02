@@ -33,7 +33,6 @@ This project is an **Online Bookstore** application where users can browse avail
 - **bcrypt.js**: For password hashing.
 - **dotenv**: For managing environment variables.
 - **cors**: To handle cross-origin requests from the frontend.
-
 ## Project Structure
 
 \`\`\`plaintext
