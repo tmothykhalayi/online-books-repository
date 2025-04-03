@@ -14,7 +14,6 @@ This project is an **Online Bookstore** application where users can browse avail
 - **Cart Management**: Users can manage their cart items.
 
 ## Technologies Used
-
 ### **Frontend**
 - **HTML**: Structure of the website.
 - **CSS**: Styling the website.
