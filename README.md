@@ -97,7 +97,6 @@ npm install
 \`\`\`
 
 Create the \`.env\` file in the **server** folder and configure your PostgreSQL connection. Example of environment variables:
-
 \`\`\`
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
