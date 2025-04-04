@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "target": "es5",                             // Set ECMAScript target version
+      "lib": ["dom", "es2015"],                    // Include DOM and ES2015 libraries
+      "allowJs": true,                             // Allow JavaScript files to be compiled
+      "jsx": "react",                              // Specify JSX code generation (use 'react' for React)
+      "module": "esnext",                          // Use ES Modules syntax
+      "moduleResolution": "node",                  // Use Node module resolution strategy
+      "resolveJsonModule": true,                   // Allow importing JSON files
+      "esModuleInterop": true,                     // Enables default imports for commonjs modules
+      "skipLibCheck": true,                        // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true,    // Ensure file name casing consistency
+      "strict": true,                              // Enable all strict type-checking options
+      "noImplicitAny": true,                       // Raise error on expressions with an implicit 'any' type
+      "strictNullChecks": true,                    // Ensure strict null checks
+      "strictFunctionTypes": true,                 // Check for function type compatibility
+      "noUnusedLocals": true,                      // Disallow unused local variables
+      "noUnusedParameters": true,                  // Disallow unused function parameters
+      "noImplicitThis": true,                      // Raise error if 'this' has an implicit 'any' type
+      "skipDefaultLibCheck": true,                 // Skip default library type checking (useful for performance)
+      "baseUrl": ".",                              // Base directory for resolving non-relative module imports
+      "paths": {                                   // Alias paths for easier imports
+        "@components/*": ["src/components/*"],
+        "@pages/*": ["src/pages/*"],
+        "@services/*": ["src/services/*"],
+        "@styles/*": ["src/styles/*"]
+      }
+    },
+    "include": [
+      "src/**/*"                                   // Include all files in the 'src' directory
+    ],
+    "exclude": [
+      "node_modules",                              // Exclude 'node_modules' folder
+      "build",                                     // Exclude 'build' folder
+      "dist"                                       // Exclude 'dist' folder
+    ]
+  }
+  
