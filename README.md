@@ -1,27 +1,19 @@
 
 # Online Bookstore
-
 This project is an **Online Bookstore** application where users can browse available books, manage their cart, and perform user authentication. The project is split into two main parts:
-
 - **Frontend**: Built with **HTML**, **CSS**, **TypeScript**, and **JavaScript**.
 - **Backend**: Built with **Express.js**, **PostgreSQL**and **TypeScript**.
-
 ## Features
-
 ### **Frontend**
-
 - **Browse Books**: Users can view a list of books available for purchase.
 - **User Authentication**: Users can sign up, log in, and view their profile.
 - **Cart Management**: Users can add books to their cart, view their cart, and proceed to checkout.
-
 ### **Backend**
-
 - **User Authentication**: Users can sign up, log in, and manage their profile.
 - **Book Management**: Admins can add, update, delete, and manage books in the store.
 - **Cart Management**: Users can manage their cart items.
 
 ## Technologies Used
-
 ### **Frontend**
 - **HTML**: Structure of the website.
 - **CSS**: Styling the website.
@@ -36,7 +28,6 @@ This project is an **Online Bookstore** application where users can browse avail
 - **bcrypt.js**: For password hashing.
 - **dotenv**: For managing environment variables.
 - **cors**: To handle cross-origin requests from the frontend.
-
 ## Project Structure
 
 \`\`\`plaintext
@@ -105,7 +96,6 @@ npm install
 \`\`\`
 
 Create the \`.env\` file in the **server** folder and configure your PostgreSQL connection. Example of environment variables:
-
 \`\`\`
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
