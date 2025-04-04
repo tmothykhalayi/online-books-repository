@@ -68,5 +68,4 @@ const Cart: React.FC = () => {
     </div>
   );
 };
-
 export default Cart;
