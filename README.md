@@ -75,7 +75,6 @@ online-bookstore/
 
 Before you start, ensure you have the following installed:
 
-
 - **npm** (Node package manager)
 - **PostgreSQL** installed and running
 
