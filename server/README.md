@@ -176,5 +176,4 @@ You can use **Postman** or **Insomnia** to test the API endpoints.
 - **CORS** is enabled, allowing the frontend to make requests to the backend from a different origin.
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
