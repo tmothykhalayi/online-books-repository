@@ -27,5 +27,4 @@ const authMiddleware = (req: Request, res: Response, next: NextFunction) => {
     return res.status(401).json({ message: 'Token is not valid' });
   }
 };
-
 export default authMiddleware;
