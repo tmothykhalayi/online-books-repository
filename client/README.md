@@ -148,7 +148,6 @@ This frontend communicates with the backend through API calls. Here’s how the 
 
 - The frontend is designed to be simple, with a focus on providing the user with an easy and intuitive experience for browsing and purchasing books.
 - JWT authentication is handled using cookies or localStorage to store the authentication token.
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
