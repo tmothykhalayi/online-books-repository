@@ -145,7 +145,6 @@ This frontend communicates with the backend through API calls. Here’s how the 
 3. **Cart API**: The frontend sends cart data to the backend for saving the cart state and managing checkout.
 
 ## Notes
-
 - The frontend is designed to be simple, with a focus on providing the user with an easy and intuitive experience for browsing and purchasing books.
 - JWT authentication is handled using cookies or localStorage to store the authentication token.
 ## License
