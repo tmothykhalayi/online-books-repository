@@ -169,7 +169,6 @@ You can use **Postman** or **Insomnia** to test the API endpoints.
 - **POST \`/api/books\`**: Adds a new book to the store (admin only).
 - **PUT \`/api/books/:id\`**: Updates an existing book (admin only).
 - **DELETE \`/api/books/:id\`**: Deletes a book (admin only).
-
 ## Notes
 
 - The backend is designed with security and scalability in mind, using JWT tokens for authentication and password hashing via \`bcrypt\`.
