@@ -174,6 +174,5 @@ You can use **Postman** or **Insomnia** to test the API endpoints.
 
 - The backend is designed with security and scalability in mind, using JWT tokens for authentication and password hashing via \`bcrypt\`.
 - **CORS** is enabled, allowing the frontend to make requests to the backend from a different origin.
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
